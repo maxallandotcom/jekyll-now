@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello my name is Max and I'm just trying to make comics. :)
 
-### More Information
+### Links
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+https://tapastic.com/maxallandotcom
+https://www.youtube.com/user/maxallandotcom
+https://www.facebook.com/maxallandotcom/
+https://www.instagram.com/maxallandotcom/
+https://twitter.com/maxallandotcom
+https://www.twitch.tv/maxallandotcom
+https://picarto.tv/maxallandotcom
+http://maxallandotcom.tumblr.com/
+https://www.patreon.com/maxallandotcom
