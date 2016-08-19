@@ -1,17 +1,24 @@
 ---
 layout: default
 ---
+<div class="container">
+	<article class="post row text-justify">
+		<h1>{{ page.title }}</h1>
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+		<div class="entry">
+			{{ content }}
+		</div>
 
-  <div class="entry">
-    {{ content }}
-  </div>
+		<div class="date">
+			Written on {{ page.date | date: "%B %e, %Y" }} | {{ page.content | reading_time }}
+		</div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }} | {{ page.content | reading_time }}
-  </div>
-  
-  {% include disqus.html %}
-</article>
+		{% include disqus.html %}
+	</article>
+	<div class="row">
+		<ul class="pager">
+			{% if page.previous %} <li class="previous"><a href="{{ page.previous.url}}">Previous Post</a></li> {% endif %}
+			{% if page.next %} <li class="next"><a href="{{ page.next.url}}">Next Post</a></li>{% endif %}
+		</ul>
+	</div>
+</div>
