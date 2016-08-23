@@ -26,39 +26,40 @@
     </head>
 
     <body>
- <!--      <div class="wrapper-masthead">
+      <div class="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+            <div class="row">
+              <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-            <div class="site-info">
-              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p>
+              <div class="site-info">
+                <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+                <p class="site-description">{{ site.description }}</p>
+              </div>
             </div>
-
-            <nav>
-              <a href="{{ site.baseurl }}/">Blog</a>
-              <a href="{{ site.baseurl }}/about">About</a>
-            </nav>
+            <div class="row" style="margin-top:10px">
+              <nav >
+                <a href="{{ site.baseurl }}/blog" style="padding-right:10px">Blog</a>
+                <a href="{{ site.baseurl }}/about">About</a>
+              </nav>
+            </div>
           </header>
         </div>
-      </div> -->
+      </div>
 
-      <nav class="navbar navbar-default">
+      <!-- <nav class="navbar navbar-default">
         <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.name }}</a>
           </div>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="{{ site.baseurl }}/Blog">Blog</a></li>
-            <li><a href="{{ site.baseurl }}/">Blog</a></li>
+            <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
             <li><a href="{{ site.baseurl }}/about">About</a></li>
 
           </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+        </div>
+      </div>
+    </nav> -->
 
     <div id="main" role="main" class="container">
       {{ content }}
@@ -68,11 +69,20 @@
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
-          {% include scripts.html %}
+          
+
+          <div class="row">
+            <div class="col-xs-12" style="font-size:15px">
+              Bitcoin Donations: 1J9e8sdZ9dbyyoPcoYTGD18dEQFXxqnoC6
+            </div>
+
+          </div>
+
         </footer>
       </div>
     </div>
 
     {% include analytics.html %}
+    {% include scripts.html %}
   </body>
   </html>

@@ -210,6 +210,10 @@ img {
   }
 }
 
+.navbar-default{
+  background-color:#FFFFFF;
+}
+
 // nav {
 //   float: right;
 //   margin-top: 23px; // @TODO: Vertically middle align
@@ -279,7 +283,8 @@ img {
 }
 
 footer {
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 60px;
   text-align: center;
 }
 

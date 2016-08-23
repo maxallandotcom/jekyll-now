@@ -1,8 +1,5 @@
-source 'https://rubygems.org'
-gemspec
-
-if ENV["GH_PAGES"]
-  gem "github-pages"
-elsif ENV["JEKYLL_VERSION"]
-  gem "jekyll", "~> #{ENV["JEKYLL_VERSION"]}"
+group :jekyll_plugins do
+	gem "jekyll-archives"
+	gem	"jekyll-sitemap"
+	gem "jekyll-feed"
 end
