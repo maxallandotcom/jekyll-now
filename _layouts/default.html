@@ -26,16 +26,31 @@
     </head>
 
     <body>
+      
+      <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+      
       <div class="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
             <div class="row">
+              <div class="col-xs-6">
               <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
               <div class="site-info">
                 <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
                 <p class="site-description">{{ site.description }}</p>
               </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="fb-page" data-href="https://www.facebook.com/maxallandotcom/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/maxallandotcom/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/maxallandotcom/">Max Allan</a></blockquote></div>
+                </div>
             </div>
             <div class="row" style="margin-top:10px">
               <nav >
