@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Halloween collaborative mini comic
+date:   2017-8-15
 author: Maxallan
 ---
 I have been trying to give meditation a chance. I have tried it in the past with good results. I tried because I was really depressed and I needed something to help me but as soon as I felt better I stop doing it.
