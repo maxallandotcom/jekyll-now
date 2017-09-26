@@ -4,7 +4,7 @@ permalink: /blog/
 ---
 <div class="container">
 	<h1>Blog Posts</h1>
-
+{{ site.posts.size }} 
 	{% for post in site.posts %}
 
 	{% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
