@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Tuesday, September 26, 2017 The Ranchito Bar Ad
+title: The Ranchito Bar Ad
 author: Maxallan
 ---
+Tuesday, September 26, 2017 The Ranchito Bar Ad
 
 Since 11:20am I had to research about cute kawaii characters and then then try to create my own. I listened to “los forasteros” podcast on youtube and found some cute drawings that I really liked, still I need to practice more.
 
