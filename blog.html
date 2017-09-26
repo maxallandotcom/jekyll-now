@@ -3,8 +3,8 @@ layout: default
 permalink: /blog/
 ---
 <div class="container">
-	<h1>New Blog Posts</h1>
-{{ site.posts.size }} 
+	<h1>Blog Posts</h1>
+
 	{% for post in site.posts %}
 
 	{% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
